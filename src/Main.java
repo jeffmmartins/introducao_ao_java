@@ -11,7 +11,7 @@ public class Main {
         int soma = a + b;
         int subtracao = a -b;
         int multiplicacao = a * b;
-        int divisao = a / b;
+        float divisao = (float) a / b;
 
         System.out.println("Olá" + nome);
         System.out.println(soma);

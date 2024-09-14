@@ -17,7 +17,9 @@ public class operadores_logivo {
         // true && false  = true
         // false &&false  = false
 
-
         System.out.println(resultado);
+
+        String mensagem = fimDeSemana ? "É fim de semana" : "não é fim de semana ";
+        System.out.println(mensagem);
     }
 }

@@ -11,6 +11,12 @@ public class operadores_logivo {
         // true && false  = false
         // false &&false  = false
 
+        // Operados OR
+        // true && true  = true
+        // false && true  = true
+        // true && false  = true
+        // false &&false  = false
+
 
         System.out.println(resultado);
     }

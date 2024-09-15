@@ -10,5 +10,11 @@ public class vetores {
         for (int i = 0; i < numeros.length; i++){
             System.out.println(numeros[i]);
         }
+
+        String[] letras = {"a","b", "d", "f"};
+
+        for (int i = 0; i < letras.length; i++){
+            System.out.println(letras[i]);
+        }
     }
 }

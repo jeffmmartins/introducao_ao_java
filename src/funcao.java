@@ -1,7 +1,7 @@
 public class funcao {
     public static void main(String[] args) {
-        String nome = "Jeff";
-        saudacao(nome);
+        String nomeOriginal = "Jeff";
+        saudacao(nomeOriginal);
     }
 
     public static void saudacao(String nome){

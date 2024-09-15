@@ -1,9 +1,10 @@
 public class funcao {
     public static void main(String[] args) {
-       saudacao();
+        String nome = "Jeff";
+        saudacao(nome);
     }
 
-    public static void saudacao(){
-        System.out.println("Hello, Jeff");
+    public static void saudacao(String nome){
+        System.out.println("Hello " + nome);
     }
 }
